@@ -87,7 +87,7 @@ private String mainMenuString = (
     {
         float floatAnswer = 0;
         Scanner in = primingInput(prompt);
-		try(){
+		try{
 			floatAnswer = in.nextFloat();
 		}
 		catch(Exception problem){
