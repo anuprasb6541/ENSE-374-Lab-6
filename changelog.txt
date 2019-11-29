@@ -1,0 +1,27 @@
+Name: Anupras Burokas
+SID: 200389250
+
+ENSE 374 Assignment 6: Defensive Programming
+
+------------changelog------------------------------
+
+Made changes to two files:
+1) CommandLineInterface.java
+2) EmployeeTest.java
+
+------------explanation of changes-----------------
+
+CommandLineInterface
+1) Added an exception handler for getMainMenuNumber() function.
+Made it so that the program can only accept integer-valued inputs of 1, 2, or 3, and throw an exception message error otherwise.
+
+2) Added an exception handler to the getInt() function, made it so that it only accept integer-valued inputs, and would throw an expcetion message otherwise
+
+3) Added an exception handler to getFloat() function, made it so that it only accepts float-value inputs, and would throw an exception error message otherwise
+
+4) Added an exception handler to the readInEmployeeData() function, which would throw an exception error message in case the file cannot be opened/found, or is corrupted
+
+
+EmployeeTest
+1) Added an exception handler to the readInEmployeeData() function, which would throw an error if the array indexing was bad, invalid, or out of bounds.
+
